@@ -11,10 +11,26 @@ class RingBuffer{
         RingBuffer(): head_(0), tail_(0) {}
         
         bool try_push(const T& item) {
-            size_t cur_head = head.load(std::memory_order_seq_cst);
-            
+            size_t cur_head = head_.load(std::memory_order_seq_cst);
+            size_t cur_tail = tail_.load(std::memory_order_seq_cst);
+            if (((cur_head - cur_tail) & mask) == mask) {
+                return false; 
+            }
+            buffer_[cur_head & mask] = item;
+            head_.store(cur_head + 1, std::memory_order_seq_cst);
+            return true;
+
         };
-        bool try_pop(T& item);
+        bool try_pop(T& item){
+            size_t cur_tail = tail_.load(std::memory_order_seq_cst);
+            if (cur_tail == head_.load(std::memory_order_seq_cst)) {
+                return false; // Buffer is empty
+            }
+            cur_tail = tail_.fetch_add(1, std::memory_order_seq_cst);  // returns old value, then adds 1
+            item = buffer_[cur_tail & mask];
+            return true;
+           
+        };
         bool is_empty() const {
             return head_.load(std::memory_order_seq_cst) == tail_.load(std::memory_order_seq_cst);
         };
