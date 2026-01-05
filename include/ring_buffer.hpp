@@ -47,7 +47,7 @@ class RingBuffer{
     
     private:
         static constexpr size_t mask = Capacity - 1;
-        alignas(64) std::atomic<size_t> head_{0};
-        alignas(64) std::atomic<size_t> tail_{0};
+        alignas(64) std::atomic<size_t> head_;
+        alignas(64) std::atomic<size_t> tail_;
         T buffer_[Capacity];
 };
