@@ -129,6 +129,43 @@ ring_buffer_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_test.dir/build.make CMakeFiles/ring_buffer_test.dir/build
 .PHONY : ring_buffer_test/fast
 
+#=============================================================================
+# Target rules for targets named ring_buffer_mt_test
+
+# Build rule for target.
+ring_buffer_mt_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ring_buffer_mt_test
+.PHONY : ring_buffer_mt_test
+
+# fast build rule for target.
+ring_buffer_mt_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/build
+.PHONY : ring_buffer_mt_test/fast
+
+tests/ring_buffer_mt_test.o: tests/ring_buffer_mt_test.cpp.o
+.PHONY : tests/ring_buffer_mt_test.o
+
+# target to build an object file
+tests/ring_buffer_mt_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/tests/ring_buffer_mt_test.cpp.o
+.PHONY : tests/ring_buffer_mt_test.cpp.o
+
+tests/ring_buffer_mt_test.i: tests/ring_buffer_mt_test.cpp.i
+.PHONY : tests/ring_buffer_mt_test.i
+
+# target to preprocess a source file
+tests/ring_buffer_mt_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/tests/ring_buffer_mt_test.cpp.i
+.PHONY : tests/ring_buffer_mt_test.cpp.i
+
+tests/ring_buffer_mt_test.s: tests/ring_buffer_mt_test.cpp.s
+.PHONY : tests/ring_buffer_mt_test.s
+
+# target to generate assembly for a file
+tests/ring_buffer_mt_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/tests/ring_buffer_mt_test.cpp.s
+.PHONY : tests/ring_buffer_mt_test.cpp.s
+
 tests/ring_buffer_test.o: tests/ring_buffer_test.cpp.o
 .PHONY : tests/ring_buffer_test.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ring_buffer_mt_test"
 	@echo "... ring_buffer_test"
+	@echo "... tests/ring_buffer_mt_test.o"
+	@echo "... tests/ring_buffer_mt_test.i"
+	@echo "... tests/ring_buffer_mt_test.s"
 	@echo "... tests/ring_buffer_test.o"
 	@echo "... tests/ring_buffer_test.i"
 	@echo "... tests/ring_buffer_test.s"

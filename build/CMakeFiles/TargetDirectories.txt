@@ -1,3 +1,4 @@
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_test.dir
+/Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_mt_test.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/edit_cache.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/rebuild_cache.dir

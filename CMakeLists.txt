@@ -12,3 +12,7 @@ include_directories(include)
 
 # Test executable
 add_executable(ring_buffer_test tests/ring_buffer_test.cpp)
+
+# Multi-threaded test executable
+add_executable(ring_buffer_mt_test tests/ring_buffer_mt_test.cpp)
+target_link_libraries(ring_buffer_mt_test pthread)
