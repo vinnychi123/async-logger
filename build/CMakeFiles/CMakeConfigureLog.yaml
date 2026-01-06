@@ -920,8 +920,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-VYv3OO"
-      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-VYv3OO"
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-hrnKyA"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-hrnKyA"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -934,19 +934,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-VYv3OO'
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-hrnKyA'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68435/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_68435.dir/build.make CMakeFiles/cmTC_68435.dir/build
-        Building CXX object CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6a55/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6a55.dir/build.make CMakeFiles/cmTC_c6a55.dir/build
+        Building CXX object CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-VYv3OO -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-VYv3OO -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-hrnKyA -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-hrnKyA -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
@@ -960,13 +960,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_68435
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68435.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_c6a55
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a55.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_68435 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c6a55 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:45:05 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -979,7 +979,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_68435
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c6a55
         
       exitCode: 0
   -
@@ -1025,19 +1025,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-VYv3OO']
+        ignore line: [Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-hrnKyA']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68435/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_68435.dir/build.make CMakeFiles/cmTC_68435.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6a55/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6a55.dir/build.make CMakeFiles/cmTC_c6a55.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-VYv3OO -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-VYv3OO -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-hrnKyA -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-hrnKyA -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
@@ -1051,13 +1051,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_68435]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68435.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_c6a55]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a55.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_68435 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c6a55 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1074,12 +1074,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_68435] ==> ignore
+          arg [cmTC_c6a55] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_68435.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_c6a55.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1114,4 +1114,1009 @@ events:
       will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
       LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
       TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindGit.cmake:111 (find_program)"
+      - "external/benchmark/cmake/GetGitVersion.cmake:14 (find_package)"
+      - "external/benchmark/CMakeLists.txt:102 (include)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/vincentchi/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Users/vincentchi/Applications/"
+      - "/Applications/"
+    searched_directories:
+      - "/usr/local/bin/git"
+      - "/System/Cryptexes/App/usr/bin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/vincentchi/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/vincentchi/Applications"
+        - "/Applications"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "external/benchmark/CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-U3roAC"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-U3roAC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-U3roAC'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8ec4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d8ec4.dir/build.make CMakeFiles/cmTC_d8ec4.dir/build
+        Building CXX object CMakeFiles/cmTC_d8ec4.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -O3 -march=native -Wall -Wextra -DCHECK_FUNCTION_EXISTS=shm_open -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_d8ec4.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_d8ec4.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_d8ec4.dir/CheckFunctionExists.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-U3roAC/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_d8ec4
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8ec4.dir/link.txt --verbose=1
+        ld: library 'rt' not found
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra -DCHECK_FUNCTION_EXISTS=shm_open -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d8ec4.dir/CheckFunctionExists.cxx.o -o cmTC_d8ec4  -lrt
+        make[1]: *** [cmTC_d8ec4] Error 1
+        make: *** [cmTC_d8ec4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:174 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-XNP6Lf"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-XNP6Lf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-XNP6Lf'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5389c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5389c.dir/build.make CMakeFiles/cmTC_5389c.dir/build
+        Building CXX object CMakeFiles/cmTC_5389c.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -O3 -march=native -Wall -Wextra  -Wall -std=c++11 -arch arm64   -Wall -MD -MT CMakeFiles/cmTC_5389c.dir/src.cxx.o -MF CMakeFiles/cmTC_5389c.dir/src.cxx.o.d -o CMakeFiles/cmTC_5389c.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-XNP6Lf/src.cxx
+        Linking CXX executable cmTC_5389c
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5389c.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5389c.dir/src.cxx.o -o cmTC_5389c
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:175 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-47LNfA"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-47LNfA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-47LNfA'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d0de7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d0de7.dir/build.make CMakeFiles/cmTC_d0de7.dir/build
+        Building CXX object CMakeFiles/cmTC_d0de7.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -O3 -march=native -Wall -Wextra  -Wall  -Wextra -std=c++11 -arch arm64   -Wextra -MD -MT CMakeFiles/cmTC_d0de7.dir/src.cxx.o -MF CMakeFiles/cmTC_d0de7.dir/src.cxx.o.d -o CMakeFiles/cmTC_d0de7.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-47LNfA/src.cxx
+        Linking CXX executable cmTC_d0de7
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0de7.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d0de7.dir/src.cxx.o -o cmTC_d0de7
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-xOluy2"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-xOluy2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-xOluy2'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_def48/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_def48.dir/build.make CMakeFiles/cmTC_def48.dir/build
+        Building CXX object CMakeFiles/cmTC_def48.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow -std=c++11 -arch arm64   -Wshadow -MD -MT CMakeFiles/cmTC_def48.dir/src.cxx.o -MF CMakeFiles/cmTC_def48.dir/src.cxx.o.d -o CMakeFiles/cmTC_def48.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-xOluy2/src.cxx
+        Linking CXX executable cmTC_def48
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_def48.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_def48.dir/src.cxx.o -o cmTC_def48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:177 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-xw0whN"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-xw0whN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-xw0whN'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f32aa/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f32aa.dir/build.make CMakeFiles/cmTC_f32aa.dir/build
+        Building CXX object CMakeFiles/cmTC_f32aa.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11 -arch arm64   -Wfloat-equal -MD -MT CMakeFiles/cmTC_f32aa.dir/src.cxx.o -MF CMakeFiles/cmTC_f32aa.dir/src.cxx.o.d -o CMakeFiles/cmTC_f32aa.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-xw0whN/src.cxx
+        Linking CXX executable cmTC_f32aa
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f32aa.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f32aa.dir/src.cxx.o -o cmTC_f32aa
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:178 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-ZYOHOn"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-ZYOHOn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-ZYOHOn'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0c4fd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0c4fd.dir/build.make CMakeFiles/cmTC_0c4fd.dir/build
+        Building CXX object CMakeFiles/cmTC_0c4fd.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11 -arch arm64   -Wold-style-cast -MD -MT CMakeFiles/cmTC_0c4fd.dir/src.cxx.o -MF CMakeFiles/cmTC_0c4fd.dir/src.cxx.o.d -o CMakeFiles/cmTC_0c4fd.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-ZYOHOn/src.cxx
+        Linking CXX executable cmTC_0c4fd
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c4fd.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0c4fd.dir/src.cxx.o -o cmTC_0c4fd
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:180 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-WZiJck"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-WZiJck"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-WZiJck'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1f4b3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1f4b3.dir/build.make CMakeFiles/cmTC_1f4b3.dir/build
+        Building CXX object CMakeFiles/cmTC_1f4b3.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -std=c++11 -arch arm64   -Werror -MD -MT CMakeFiles/cmTC_1f4b3.dir/src.cxx.o -MF CMakeFiles/cmTC_1f4b3.dir/src.cxx.o.d -o CMakeFiles/cmTC_1f4b3.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-WZiJck/src.cxx
+        Linking CXX executable cmTC_1f4b3
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f4b3.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1f4b3.dir/src.cxx.o -o cmTC_1f4b3
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:184 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-SKs3GL"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-SKs3GL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-SKs3GL'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e0ee3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e0ee3.dir/build.make CMakeFiles/cmTC_e0ee3.dir/build
+        Building CXX object CMakeFiles/cmTC_e0ee3.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override -std=c++11 -arch arm64   -Wsuggest-override -MD -MT CMakeFiles/cmTC_e0ee3.dir/src.cxx.o -MF CMakeFiles/cmTC_e0ee3.dir/src.cxx.o.d -o CMakeFiles/cmTC_e0ee3.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-SKs3GL/src.cxx
+        Linking CXX executable cmTC_e0ee3
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0ee3.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e0ee3.dir/src.cxx.o -o cmTC_e0ee3
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:186 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-l7oQzM"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-l7oQzM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-l7oQzM'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fa08e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fa08e.dir/build.make CMakeFiles/cmTC_fa08e.dir/build
+        Building CXX object CMakeFiles/cmTC_fa08e.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic -std=c++11 -arch arm64   -pedantic -MD -MT CMakeFiles/cmTC_fa08e.dir/src.cxx.o -MF CMakeFiles/cmTC_fa08e.dir/src.cxx.o.d -o CMakeFiles/cmTC_fa08e.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-l7oQzM/src.cxx
+        Linking CXX executable cmTC_fa08e
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa08e.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fa08e.dir/src.cxx.o -o cmTC_fa08e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:187 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-cSBdFF"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-cSBdFF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-cSBdFF'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9b1a9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9b1a9.dir/build.make CMakeFiles/cmTC_9b1a9.dir/build
+        Building CXX object CMakeFiles/cmTC_9b1a9.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++11 -arch arm64   -pedantic-errors -MD -MT CMakeFiles/cmTC_9b1a9.dir/src.cxx.o -MF CMakeFiles/cmTC_9b1a9.dir/src.cxx.o.d -o CMakeFiles/cmTC_9b1a9.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-cSBdFF/src.cxx
+        Linking CXX executable cmTC_9b1a9
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b1a9.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9b1a9.dir/src.cxx.o -o cmTC_9b1a9
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:188 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-HDKVD1"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-HDKVD1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-HDKVD1'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96188/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_96188.dir/build.make CMakeFiles/cmTC_96188.dir/build
+        Building CXX object CMakeFiles/cmTC_96188.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -arch arm64   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_96188.dir/src.cxx.o -MF CMakeFiles/cmTC_96188.dir/src.cxx.o.d -o CMakeFiles/cmTC_96188.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-HDKVD1/src.cxx
+        Linking CXX executable cmTC_96188
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96188.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_96188.dir/src.cxx.o -o cmTC_96188
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:189 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-5A2eHh"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-5A2eHh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-5A2eHh'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_56151/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_56151.dir/build.make CMakeFiles/cmTC_56151.dir/build
+        Building CXX object CMakeFiles/cmTC_56151.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -std=c++11 -arch arm64   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_56151.dir/src.cxx.o -MF CMakeFiles/cmTC_56151.dir/src.cxx.o.d -o CMakeFiles/cmTC_56151.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-5A2eHh/src.cxx
+        Linking CXX executable cmTC_56151
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56151.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_56151.dir/src.cxx.o -o cmTC_56151
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:192 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-asZFSp"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-asZFSp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-asZFSp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eeb0d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eeb0d.dir/build.make CMakeFiles/cmTC_eeb0d.dir/build
+        Building CXX object CMakeFiles/cmTC_eeb0d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11 -arch arm64   -Wno-deprecated-declarations -MD -MT CMakeFiles/cmTC_eeb0d.dir/src.cxx.o -MF CMakeFiles/cmTC_eeb0d.dir/src.cxx.o.d -o CMakeFiles/cmTC_eeb0d.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-asZFSp/src.cxx
+        Linking CXX executable cmTC_eeb0d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeb0d.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eeb0d.dir/src.cxx.o -o cmTC_eeb0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:202 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-ShqNOD"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-ShqNOD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-ShqNOD'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1887a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1887a.dir/build.make CMakeFiles/cmTC_1887a.dir/build
+        Building CXX object CMakeFiles/cmTC_1887a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11 -arch arm64   -Wno-deprecated -MD -MT CMakeFiles/cmTC_1887a.dir/src.cxx.o -MF CMakeFiles/cmTC_1887a.dir/src.cxx.o.d -o CMakeFiles/cmTC_1887a.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-ShqNOD/src.cxx
+        Linking CXX executable cmTC_1887a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1887a.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1887a.dir/src.cxx.o -o cmTC_1887a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:210 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-oDKo2j"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-oDKo2j"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-oDKo2j'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2f6d4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2f6d4.dir/build.make CMakeFiles/cmTC_2f6d4.dir/build
+        Building CXX object CMakeFiles/cmTC_2f6d4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11 -arch arm64   -Wstrict-aliasing -MD -MT CMakeFiles/cmTC_2f6d4.dir/src.cxx.o -MF CMakeFiles/cmTC_2f6d4.dir/src.cxx.o.d -o CMakeFiles/cmTC_2f6d4.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-oDKo2j/src.cxx
+        Linking CXX executable cmTC_2f6d4
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f6d4.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2f6d4.dir/src.cxx.o -o cmTC_2f6d4
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:215 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-GxnisS"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-GxnisS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-GxnisS'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2ed38/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2ed38.dir/build.make CMakeFiles/cmTC_2ed38.dir/build
+        Building CXX object CMakeFiles/cmTC_2ed38.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11 -arch arm64   -wd654 -MD -MT CMakeFiles/cmTC_2ed38.dir/src.cxx.o -MF CMakeFiles/cmTC_2ed38.dir/src.cxx.o.d -o CMakeFiles/cmTC_2ed38.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-GxnisS/src.cxx
+        clang++: error: unknown argument: '-wd654'
+        clang++: error: unknown argument: '-wd654'
+        make[1]: *** [CMakeFiles/cmTC_2ed38.dir/src.cxx.o] Error 1
+        make: *** [cmTC_2ed38/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:216 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-oWha8y"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-oWha8y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-oWha8y'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_58c3d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_58c3d.dir/build.make CMakeFiles/cmTC_58c3d.dir/build
+        Building CXX object CMakeFiles/cmTC_58c3d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11 -arch arm64   -Wthread-safety -MD -MT CMakeFiles/cmTC_58c3d.dir/src.cxx.o -MF CMakeFiles/cmTC_58c3d.dir/src.cxx.o.d -o CMakeFiles/cmTC_58c3d.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-oWha8y/src.cxx
+        Linking CXX executable cmTC_58c3d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c3d.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_58c3d.dir/src.cxx.o -o cmTC_58c3d
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "external/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "external/benchmark/CMakeLists.txt:218 (cxx_feature_check)"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b625c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b625c.dir/build.make CMakeFiles/cmTC_b625c.dir/build
+        Building CXX object CMakeFiles/cmTC_b625c.dir/thread_safety_attributes.cpp.o
+        /usr/bin/c++  -I/Users/vincentchi/async-logger/external/benchmark/include -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_b625c.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_b625c.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_b625c.dir/thread_safety_attributes.cpp.o -c /Users/vincentchi/async-logger/external/benchmark/cmake/thread_safety_attributes.cpp
+        Linking CXX executable cmTC_b625c
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b625c.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b625c.dir/thread_safety_attributes.cpp.o -o cmTC_b625c
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "external/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "external/benchmark/CMakeLists.txt:267 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-4qJR2w"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-4qJR2w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-4qJR2w'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b57af/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b57af.dir/build.make CMakeFiles/cmTC_b57af.dir/build
+        Building CXX object CMakeFiles/cmTC_b57af.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  --coverage -std=c++11 -arch arm64   --coverage -MD -MT CMakeFiles/cmTC_b57af.dir/src.cxx.o -MF CMakeFiles/cmTC_b57af.dir/src.cxx.o.d -o CMakeFiles/cmTC_b57af.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-4qJR2w/src.cxx
+        Linking CXX executable cmTC_b57af
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b57af.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b57af.dir/src.cxx.o -o cmTC_b57af
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "external/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "external/benchmark/CMakeLists.txt:297 (cxx_feature_check)"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ef998/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ef998.dir/build.make CMakeFiles/cmTC_ef998.dir/build
+        Building CXX object CMakeFiles/cmTC_ef998.dir/std_regex.cpp.o
+        /usr/bin/c++   -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_ef998.dir/std_regex.cpp.o -MF CMakeFiles/cmTC_ef998.dir/std_regex.cpp.o.d -o CMakeFiles/cmTC_ef998.dir/std_regex.cpp.o -c /Users/vincentchi/async-logger/external/benchmark/cmake/std_regex.cpp
+        Linking CXX executable cmTC_ef998
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef998.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ef998.dir/std_regex.cpp.o -o cmTC_ef998
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "external/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "external/benchmark/CMakeLists.txt:298 (cxx_feature_check)"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_852cf/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_852cf.dir/build.make CMakeFiles/cmTC_852cf.dir/build
+        Building CXX object CMakeFiles/cmTC_852cf.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_852cf.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_852cf.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_852cf.dir/gnu_posix_regex.cpp.o -c /Users/vincentchi/async-logger/external/benchmark/cmake/gnu_posix_regex.cpp
+        /Users/vincentchi/async-logger/external/benchmark/cmake/gnu_posix_regex.cpp:1:10: fatal error: 'gnuregex.h' file not found
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_852cf.dir/gnu_posix_regex.cpp.o] Error 1
+        make: *** [cmTC_852cf/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "external/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "external/benchmark/CMakeLists.txt:299 (cxx_feature_check)"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d0bad/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d0bad.dir/build.make CMakeFiles/cmTC_d0bad.dir/build
+        Building CXX object CMakeFiles/cmTC_d0bad.dir/posix_regex.cpp.o
+        /usr/bin/c++   -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_d0bad.dir/posix_regex.cpp.o -MF CMakeFiles/cmTC_d0bad.dir/posix_regex.cpp.o.d -o CMakeFiles/cmTC_d0bad.dir/posix_regex.cpp.o -c /Users/vincentchi/async-logger/external/benchmark/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_d0bad
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0bad.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d0bad.dir/posix_regex.cpp.o -o cmTC_d0bad
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "external/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "external/benchmark/CMakeLists.txt:308 (cxx_feature_check)"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f974/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5f974.dir/build.make CMakeFiles/cmTC_5f974.dir/build
+        Building CXX object CMakeFiles/cmTC_5f974.dir/steady_clock.cpp.o
+        /usr/bin/c++   -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_5f974.dir/steady_clock.cpp.o -MF CMakeFiles/cmTC_5f974.dir/steady_clock.cpp.o.d -o CMakeFiles/cmTC_5f974.dir/steady_clock.cpp.o -c /Users/vincentchi/async-logger/external/benchmark/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_5f974
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f974.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5f974.dir/steady_clock.cpp.o -o cmTC_5f974
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "external/benchmark/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-a3oKLH"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-a3oKLH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-a3oKLH'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d473b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d473b.dir/build.make CMakeFiles/cmTC_d473b.dir/build
+        Building CXX object CMakeFiles/cmTC_d473b.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_d473b.dir/src.cxx.o -MF CMakeFiles/cmTC_d473b.dir/src.cxx.o.d -o CMakeFiles/cmTC_d473b.dir/src.cxx.o -c /Users/vincentchi/async-logger/build/CMakeFiles/CMakeScratch/TryCompile-a3oKLH/src.cxx
+        Linking CXX executable cmTC_d473b
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d473b.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d473b.dir/src.cxx.o -o cmTC_d473b
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "external/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "external/benchmark/CMakeLists.txt:312 (cxx_feature_check)"
+    directories:
+      source: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincentchi/async-logger/external/benchmark/cmake/Modules;/Users/vincentchi/async-logger/external/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincentchi/async-logger/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32617/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_32617.dir/build.make CMakeFiles/cmTC_32617.dir/build
+        Building CXX object CMakeFiles/cmTC_32617.dir/pthread_affinity.cpp.o
+        /usr/bin/c++   -O3 -march=native -Wall -Wextra  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -MD -MT CMakeFiles/cmTC_32617.dir/pthread_affinity.cpp.o -MF CMakeFiles/cmTC_32617.dir/pthread_affinity.cpp.o.d -o CMakeFiles/cmTC_32617.dir/pthread_affinity.cpp.o -c /Users/vincentchi/async-logger/external/benchmark/cmake/pthread_affinity.cpp
+        /Users/vincentchi/async-logger/external/benchmark/cmake/pthread_affinity.cpp:3:3: error: unknown type name 'cpu_set_t'
+            3 |   cpu_set_t set;
+              |   ^
+        /Users/vincentchi/async-logger/external/benchmark/cmake/pthread_affinity.cpp:5:23: error: use of undeclared identifier 'CPU_SETSIZE'
+            5 |   for (int i = 0; i < CPU_SETSIZE; ++i) {
+              |                       ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_32617.dir/pthread_affinity.cpp.o] Error 1
+        make: *** [cmTC_32617/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
 ...

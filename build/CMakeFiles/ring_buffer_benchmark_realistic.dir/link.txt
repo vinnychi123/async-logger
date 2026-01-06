@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -Wall -Wextra -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ring_buffer_benchmark_realistic.dir/benchmarks/ring_buffer_benchmark_realistic.cpp.o -o ring_buffer_benchmark_realistic  external/benchmark/src/libbenchmark.a -lpthread

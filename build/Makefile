@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles /Users/vincentchi/async-logger/build//CMakeFiles/progress.marks
@@ -142,6 +187,143 @@ ring_buffer_mt_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/build
 .PHONY : ring_buffer_mt_test/fast
 
+#=============================================================================
+# Target rules for targets named ring_buffer_benchmark
+
+# Build rule for target.
+ring_buffer_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ring_buffer_benchmark
+.PHONY : ring_buffer_benchmark
+
+# fast build rule for target.
+ring_buffer_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark.dir/build.make CMakeFiles/ring_buffer_benchmark.dir/build
+.PHONY : ring_buffer_benchmark/fast
+
+#=============================================================================
+# Target rules for targets named ring_buffer_benchmark_realistic
+
+# Build rule for target.
+ring_buffer_benchmark_realistic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ring_buffer_benchmark_realistic
+.PHONY : ring_buffer_benchmark_realistic
+
+# fast build rule for target.
+ring_buffer_benchmark_realistic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark_realistic.dir/build.make CMakeFiles/ring_buffer_benchmark_realistic.dir/build
+.PHONY : ring_buffer_benchmark_realistic/fast
+
+#=============================================================================
+# Target rules for targets named ring_buffer_latency
+
+# Build rule for target.
+ring_buffer_latency: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ring_buffer_latency
+.PHONY : ring_buffer_latency
+
+# fast build rule for target.
+ring_buffer_latency/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/build
+.PHONY : ring_buffer_latency/fast
+
+#=============================================================================
+# Target rules for targets named benchmark
+
+# Build rule for target.
+benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark
+.PHONY : benchmark
+
+# fast build rule for target.
+benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark.dir/build.make external/benchmark/src/CMakeFiles/benchmark.dir/build
+.PHONY : benchmark/fast
+
+#=============================================================================
+# Target rules for targets named benchmark_main
+
+# Build rule for target.
+benchmark_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark_main
+.PHONY : benchmark_main
+
+# fast build rule for target.
+benchmark_main/fast:
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark_main.dir/build.make external/benchmark/src/CMakeFiles/benchmark_main.dir/build
+.PHONY : benchmark_main/fast
+
+benchmarks/ring_buffer_benchmark.o: benchmarks/ring_buffer_benchmark.cpp.o
+.PHONY : benchmarks/ring_buffer_benchmark.o
+
+# target to build an object file
+benchmarks/ring_buffer_benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark.dir/build.make CMakeFiles/ring_buffer_benchmark.dir/benchmarks/ring_buffer_benchmark.cpp.o
+.PHONY : benchmarks/ring_buffer_benchmark.cpp.o
+
+benchmarks/ring_buffer_benchmark.i: benchmarks/ring_buffer_benchmark.cpp.i
+.PHONY : benchmarks/ring_buffer_benchmark.i
+
+# target to preprocess a source file
+benchmarks/ring_buffer_benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark.dir/build.make CMakeFiles/ring_buffer_benchmark.dir/benchmarks/ring_buffer_benchmark.cpp.i
+.PHONY : benchmarks/ring_buffer_benchmark.cpp.i
+
+benchmarks/ring_buffer_benchmark.s: benchmarks/ring_buffer_benchmark.cpp.s
+.PHONY : benchmarks/ring_buffer_benchmark.s
+
+# target to generate assembly for a file
+benchmarks/ring_buffer_benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark.dir/build.make CMakeFiles/ring_buffer_benchmark.dir/benchmarks/ring_buffer_benchmark.cpp.s
+.PHONY : benchmarks/ring_buffer_benchmark.cpp.s
+
+benchmarks/ring_buffer_benchmark_realistic.o: benchmarks/ring_buffer_benchmark_realistic.cpp.o
+.PHONY : benchmarks/ring_buffer_benchmark_realistic.o
+
+# target to build an object file
+benchmarks/ring_buffer_benchmark_realistic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark_realistic.dir/build.make CMakeFiles/ring_buffer_benchmark_realistic.dir/benchmarks/ring_buffer_benchmark_realistic.cpp.o
+.PHONY : benchmarks/ring_buffer_benchmark_realistic.cpp.o
+
+benchmarks/ring_buffer_benchmark_realistic.i: benchmarks/ring_buffer_benchmark_realistic.cpp.i
+.PHONY : benchmarks/ring_buffer_benchmark_realistic.i
+
+# target to preprocess a source file
+benchmarks/ring_buffer_benchmark_realistic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark_realistic.dir/build.make CMakeFiles/ring_buffer_benchmark_realistic.dir/benchmarks/ring_buffer_benchmark_realistic.cpp.i
+.PHONY : benchmarks/ring_buffer_benchmark_realistic.cpp.i
+
+benchmarks/ring_buffer_benchmark_realistic.s: benchmarks/ring_buffer_benchmark_realistic.cpp.s
+.PHONY : benchmarks/ring_buffer_benchmark_realistic.s
+
+# target to generate assembly for a file
+benchmarks/ring_buffer_benchmark_realistic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark_realistic.dir/build.make CMakeFiles/ring_buffer_benchmark_realistic.dir/benchmarks/ring_buffer_benchmark_realistic.cpp.s
+.PHONY : benchmarks/ring_buffer_benchmark_realistic.cpp.s
+
+benchmarks/ring_buffer_latency.o: benchmarks/ring_buffer_latency.cpp.o
+.PHONY : benchmarks/ring_buffer_latency.o
+
+# target to build an object file
+benchmarks/ring_buffer_latency.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/benchmarks/ring_buffer_latency.cpp.o
+.PHONY : benchmarks/ring_buffer_latency.cpp.o
+
+benchmarks/ring_buffer_latency.i: benchmarks/ring_buffer_latency.cpp.i
+.PHONY : benchmarks/ring_buffer_latency.i
+
+# target to preprocess a source file
+benchmarks/ring_buffer_latency.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/benchmarks/ring_buffer_latency.cpp.i
+.PHONY : benchmarks/ring_buffer_latency.cpp.i
+
+benchmarks/ring_buffer_latency.s: benchmarks/ring_buffer_latency.cpp.s
+.PHONY : benchmarks/ring_buffer_latency.s
+
+# target to generate assembly for a file
+benchmarks/ring_buffer_latency.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/benchmarks/ring_buffer_latency.cpp.s
+.PHONY : benchmarks/ring_buffer_latency.cpp.s
+
 tests/ring_buffer_mt_test.o: tests/ring_buffer_mt_test.cpp.o
 .PHONY : tests/ring_buffer_mt_test.o
 
@@ -197,9 +379,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... benchmark"
+	@echo "... benchmark_main"
+	@echo "... ring_buffer_benchmark"
+	@echo "... ring_buffer_benchmark_realistic"
+	@echo "... ring_buffer_latency"
 	@echo "... ring_buffer_mt_test"
 	@echo "... ring_buffer_test"
+	@echo "... benchmarks/ring_buffer_benchmark.o"
+	@echo "... benchmarks/ring_buffer_benchmark.i"
+	@echo "... benchmarks/ring_buffer_benchmark.s"
+	@echo "... benchmarks/ring_buffer_benchmark_realistic.o"
+	@echo "... benchmarks/ring_buffer_benchmark_realistic.i"
+	@echo "... benchmarks/ring_buffer_benchmark_realistic.s"
+	@echo "... benchmarks/ring_buffer_latency.o"
+	@echo "... benchmarks/ring_buffer_latency.i"
+	@echo "... benchmarks/ring_buffer_latency.s"
 	@echo "... tests/ring_buffer_mt_test.o"
 	@echo "... tests/ring_buffer_mt_test.i"
 	@echo "... tests/ring_buffer_mt_test.s"

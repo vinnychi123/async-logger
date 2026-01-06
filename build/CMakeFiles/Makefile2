@@ -65,21 +65,74 @@ CMAKE_BINARY_DIR = /Users/vincentchi/async-logger/build
 # The main recursive "all" target.
 all: CMakeFiles/ring_buffer_test.dir/all
 all: CMakeFiles/ring_buffer_mt_test.dir/all
+all: CMakeFiles/ring_buffer_benchmark.dir/all
+all: CMakeFiles/ring_buffer_benchmark_realistic.dir/all
+all: CMakeFiles/ring_buffer_latency.dir/all
+all: external/benchmark/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/ring_buffer_test.dir/codegen
 codegen: CMakeFiles/ring_buffer_mt_test.dir/codegen
+codegen: CMakeFiles/ring_buffer_benchmark.dir/codegen
+codegen: CMakeFiles/ring_buffer_benchmark_realistic.dir/codegen
+codegen: CMakeFiles/ring_buffer_latency.dir/codegen
+codegen: external/benchmark/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: external/benchmark/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/ring_buffer_test.dir/clean
 clean: CMakeFiles/ring_buffer_mt_test.dir/clean
+clean: CMakeFiles/ring_buffer_benchmark.dir/clean
+clean: CMakeFiles/ring_buffer_benchmark_realistic.dir/clean
+clean: CMakeFiles/ring_buffer_latency.dir/clean
+clean: external/benchmark/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory external/benchmark
+
+# Recursive "all" directory target.
+external/benchmark/all: external/benchmark/src/all
+.PHONY : external/benchmark/all
+
+# Recursive "codegen" directory target.
+external/benchmark/codegen: external/benchmark/src/codegen
+.PHONY : external/benchmark/codegen
+
+# Recursive "preinstall" directory target.
+external/benchmark/preinstall: external/benchmark/src/preinstall
+.PHONY : external/benchmark/preinstall
+
+# Recursive "clean" directory target.
+external/benchmark/clean: external/benchmark/src/clean
+.PHONY : external/benchmark/clean
+
+#=============================================================================
+# Directory level rules for directory external/benchmark/src
+
+# Recursive "all" directory target.
+external/benchmark/src/all: external/benchmark/src/CMakeFiles/benchmark.dir/all
+external/benchmark/src/all: external/benchmark/src/CMakeFiles/benchmark_main.dir/all
+.PHONY : external/benchmark/src/all
+
+# Recursive "codegen" directory target.
+external/benchmark/src/codegen: external/benchmark/src/CMakeFiles/benchmark.dir/codegen
+external/benchmark/src/codegen: external/benchmark/src/CMakeFiles/benchmark_main.dir/codegen
+.PHONY : external/benchmark/src/codegen
+
+# Recursive "preinstall" directory target.
+external/benchmark/src/preinstall:
+.PHONY : external/benchmark/src/preinstall
+
+# Recursive "clean" directory target.
+external/benchmark/src/clean: external/benchmark/src/CMakeFiles/benchmark.dir/clean
+external/benchmark/src/clean: external/benchmark/src/CMakeFiles/benchmark_main.dir/clean
+.PHONY : external/benchmark/src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ring_buffer_test.dir
@@ -88,7 +141,7 @@ clean: CMakeFiles/ring_buffer_mt_test.dir/clean
 CMakeFiles/ring_buffer_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_test.dir/build.make CMakeFiles/ring_buffer_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_test.dir/build.make CMakeFiles/ring_buffer_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=3,4 "Built target ring_buffer_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=31,32 "Built target ring_buffer_test"
 .PHONY : CMakeFiles/ring_buffer_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -105,7 +158,7 @@ ring_buffer_test: CMakeFiles/ring_buffer_test.dir/rule
 # codegen rule for target.
 CMakeFiles/ring_buffer_test.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_test.dir/build.make CMakeFiles/ring_buffer_test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=3,4 "Finished codegen for target ring_buffer_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=31,32 "Finished codegen for target ring_buffer_test"
 .PHONY : CMakeFiles/ring_buffer_test.dir/codegen
 
 # clean rule for target.
@@ -120,7 +173,7 @@ CMakeFiles/ring_buffer_test.dir/clean:
 CMakeFiles/ring_buffer_mt_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=1,2 "Built target ring_buffer_mt_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=29,30 "Built target ring_buffer_mt_test"
 .PHONY : CMakeFiles/ring_buffer_mt_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,13 +190,173 @@ ring_buffer_mt_test: CMakeFiles/ring_buffer_mt_test.dir/rule
 # codegen rule for target.
 CMakeFiles/ring_buffer_mt_test.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=1,2 "Finished codegen for target ring_buffer_mt_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=29,30 "Finished codegen for target ring_buffer_mt_test"
 .PHONY : CMakeFiles/ring_buffer_mt_test.dir/codegen
 
 # clean rule for target.
 CMakeFiles/ring_buffer_mt_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/clean
 .PHONY : CMakeFiles/ring_buffer_mt_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ring_buffer_benchmark.dir
+
+# All Build rule for target.
+CMakeFiles/ring_buffer_benchmark.dir/all: external/benchmark/src/CMakeFiles/benchmark.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark.dir/build.make CMakeFiles/ring_buffer_benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark.dir/build.make CMakeFiles/ring_buffer_benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=23,24 "Built target ring_buffer_benchmark"
+.PHONY : CMakeFiles/ring_buffer_benchmark.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ring_buffer_benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ring_buffer_benchmark.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 0
+.PHONY : CMakeFiles/ring_buffer_benchmark.dir/rule
+
+# Convenience name for target.
+ring_buffer_benchmark: CMakeFiles/ring_buffer_benchmark.dir/rule
+.PHONY : ring_buffer_benchmark
+
+# codegen rule for target.
+CMakeFiles/ring_buffer_benchmark.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark.dir/build.make CMakeFiles/ring_buffer_benchmark.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=23,24 "Finished codegen for target ring_buffer_benchmark"
+.PHONY : CMakeFiles/ring_buffer_benchmark.dir/codegen
+
+# clean rule for target.
+CMakeFiles/ring_buffer_benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark.dir/build.make CMakeFiles/ring_buffer_benchmark.dir/clean
+.PHONY : CMakeFiles/ring_buffer_benchmark.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ring_buffer_benchmark_realistic.dir
+
+# All Build rule for target.
+CMakeFiles/ring_buffer_benchmark_realistic.dir/all: external/benchmark/src/CMakeFiles/benchmark.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark_realistic.dir/build.make CMakeFiles/ring_buffer_benchmark_realistic.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark_realistic.dir/build.make CMakeFiles/ring_buffer_benchmark_realistic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=25,26 "Built target ring_buffer_benchmark_realistic"
+.PHONY : CMakeFiles/ring_buffer_benchmark_realistic.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ring_buffer_benchmark_realistic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ring_buffer_benchmark_realistic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 0
+.PHONY : CMakeFiles/ring_buffer_benchmark_realistic.dir/rule
+
+# Convenience name for target.
+ring_buffer_benchmark_realistic: CMakeFiles/ring_buffer_benchmark_realistic.dir/rule
+.PHONY : ring_buffer_benchmark_realistic
+
+# codegen rule for target.
+CMakeFiles/ring_buffer_benchmark_realistic.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark_realistic.dir/build.make CMakeFiles/ring_buffer_benchmark_realistic.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=25,26 "Finished codegen for target ring_buffer_benchmark_realistic"
+.PHONY : CMakeFiles/ring_buffer_benchmark_realistic.dir/codegen
+
+# clean rule for target.
+CMakeFiles/ring_buffer_benchmark_realistic.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_benchmark_realistic.dir/build.make CMakeFiles/ring_buffer_benchmark_realistic.dir/clean
+.PHONY : CMakeFiles/ring_buffer_benchmark_realistic.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ring_buffer_latency.dir
+
+# All Build rule for target.
+CMakeFiles/ring_buffer_latency.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=27,28 "Built target ring_buffer_latency"
+.PHONY : CMakeFiles/ring_buffer_latency.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ring_buffer_latency.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ring_buffer_latency.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 0
+.PHONY : CMakeFiles/ring_buffer_latency.dir/rule
+
+# Convenience name for target.
+ring_buffer_latency: CMakeFiles/ring_buffer_latency.dir/rule
+.PHONY : ring_buffer_latency
+
+# codegen rule for target.
+CMakeFiles/ring_buffer_latency.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=27,28 "Finished codegen for target ring_buffer_latency"
+.PHONY : CMakeFiles/ring_buffer_latency.dir/codegen
+
+# clean rule for target.
+CMakeFiles/ring_buffer_latency.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/clean
+.PHONY : CMakeFiles/ring_buffer_latency.dir/clean
+
+#=============================================================================
+# Target rules for target external/benchmark/src/CMakeFiles/benchmark.dir
+
+# All Build rule for target.
+external/benchmark/src/CMakeFiles/benchmark.dir/all:
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark.dir/build.make external/benchmark/src/CMakeFiles/benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark.dir/build.make external/benchmark/src/CMakeFiles/benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target benchmark"
+.PHONY : external/benchmark/src/CMakeFiles/benchmark.dir/all
+
+# Build rule for subdir invocation for target.
+external/benchmark/src/CMakeFiles/benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/benchmark/src/CMakeFiles/benchmark.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 0
+.PHONY : external/benchmark/src/CMakeFiles/benchmark.dir/rule
+
+# Convenience name for target.
+benchmark: external/benchmark/src/CMakeFiles/benchmark.dir/rule
+.PHONY : benchmark
+
+# codegen rule for target.
+external/benchmark/src/CMakeFiles/benchmark.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark.dir/build.make external/benchmark/src/CMakeFiles/benchmark.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Finished codegen for target benchmark"
+.PHONY : external/benchmark/src/CMakeFiles/benchmark.dir/codegen
+
+# clean rule for target.
+external/benchmark/src/CMakeFiles/benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark.dir/build.make external/benchmark/src/CMakeFiles/benchmark.dir/clean
+.PHONY : external/benchmark/src/CMakeFiles/benchmark.dir/clean
+
+#=============================================================================
+# Target rules for target external/benchmark/src/CMakeFiles/benchmark_main.dir
+
+# All Build rule for target.
+external/benchmark/src/CMakeFiles/benchmark_main.dir/all: external/benchmark/src/CMakeFiles/benchmark.dir/all
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark_main.dir/build.make external/benchmark/src/CMakeFiles/benchmark_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark_main.dir/build.make external/benchmark/src/CMakeFiles/benchmark_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=21,22 "Built target benchmark_main"
+.PHONY : external/benchmark/src/CMakeFiles/benchmark_main.dir/all
+
+# Build rule for subdir invocation for target.
+external/benchmark/src/CMakeFiles/benchmark_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/benchmark/src/CMakeFiles/benchmark_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentchi/async-logger/build/CMakeFiles 0
+.PHONY : external/benchmark/src/CMakeFiles/benchmark_main.dir/rule
+
+# Convenience name for target.
+benchmark_main: external/benchmark/src/CMakeFiles/benchmark_main.dir/rule
+.PHONY : benchmark_main
+
+# codegen rule for target.
+external/benchmark/src/CMakeFiles/benchmark_main.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark_main.dir/build.make external/benchmark/src/CMakeFiles/benchmark_main.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vincentchi/async-logger/build/CMakeFiles --progress-num=21,22 "Finished codegen for target benchmark_main"
+.PHONY : external/benchmark/src/CMakeFiles/benchmark_main.dir/codegen
+
+# clean rule for target.
+external/benchmark/src/CMakeFiles/benchmark_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark_main.dir/build.make external/benchmark/src/CMakeFiles/benchmark_main.dir/clean
+.PHONY : external/benchmark/src/CMakeFiles/benchmark_main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

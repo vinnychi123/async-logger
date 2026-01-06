@@ -1,7 +1,9 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/vincentchi/async-logger/build/cmake_install.cmake"
+		"/Users/vincentchi/async-logger/build/cmake_install.cmake",
+		"/Users/vincentchi/async-logger/build/external/benchmark/cmake_install.cmake",
+		"/Users/vincentchi/async-logger/build/external/benchmark/src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
