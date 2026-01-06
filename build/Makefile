@@ -162,6 +162,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named logger
+
+# Build rule for target.
+logger: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger
+.PHONY : logger
+
+# fast build rule for target.
+logger/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/build
+.PHONY : logger/fast
+
+#=============================================================================
 # Target rules for targets named ring_buffer_test
 
 # Build rule for target.
@@ -186,6 +199,19 @@ ring_buffer_mt_test: cmake_check_build_system
 ring_buffer_mt_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_mt_test.dir/build.make CMakeFiles/ring_buffer_mt_test.dir/build
 .PHONY : ring_buffer_mt_test/fast
+
+#=============================================================================
+# Target rules for targets named logger_test
+
+# Build rule for target.
+logger_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger_test
+.PHONY : logger_test
+
+# fast build rule for target.
+logger_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_test.dir/build.make CMakeFiles/logger_test.dir/build
+.PHONY : logger_test/fast
 
 #=============================================================================
 # Target rules for targets named ring_buffer_benchmark
@@ -324,6 +350,54 @@ benchmarks/ring_buffer_latency.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ring_buffer_latency.dir/build.make CMakeFiles/ring_buffer_latency.dir/benchmarks/ring_buffer_latency.cpp.s
 .PHONY : benchmarks/ring_buffer_latency.cpp.s
 
+src/logger.o: src/logger.cpp.o
+.PHONY : src/logger.o
+
+# target to build an object file
+src/logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/src/logger.cpp.o
+.PHONY : src/logger.cpp.o
+
+src/logger.i: src/logger.cpp.i
+.PHONY : src/logger.i
+
+# target to preprocess a source file
+src/logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/src/logger.cpp.i
+.PHONY : src/logger.cpp.i
+
+src/logger.s: src/logger.cpp.s
+.PHONY : src/logger.s
+
+# target to generate assembly for a file
+src/logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger.dir/build.make CMakeFiles/logger.dir/src/logger.cpp.s
+.PHONY : src/logger.cpp.s
+
+tests/logger_test.o: tests/logger_test.cpp.o
+.PHONY : tests/logger_test.o
+
+# target to build an object file
+tests/logger_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_test.dir/build.make CMakeFiles/logger_test.dir/tests/logger_test.cpp.o
+.PHONY : tests/logger_test.cpp.o
+
+tests/logger_test.i: tests/logger_test.cpp.i
+.PHONY : tests/logger_test.i
+
+# target to preprocess a source file
+tests/logger_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_test.dir/build.make CMakeFiles/logger_test.dir/tests/logger_test.cpp.i
+.PHONY : tests/logger_test.cpp.i
+
+tests/logger_test.s: tests/logger_test.cpp.s
+.PHONY : tests/logger_test.s
+
+# target to generate assembly for a file
+tests/logger_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_test.dir/build.make CMakeFiles/logger_test.dir/tests/logger_test.cpp.s
+.PHONY : tests/logger_test.cpp.s
+
 tests/ring_buffer_mt_test.o: tests/ring_buffer_mt_test.cpp.o
 .PHONY : tests/ring_buffer_mt_test.o
 
@@ -386,6 +460,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... benchmark"
 	@echo "... benchmark_main"
+	@echo "... logger"
+	@echo "... logger_test"
 	@echo "... ring_buffer_benchmark"
 	@echo "... ring_buffer_benchmark_realistic"
 	@echo "... ring_buffer_latency"
@@ -400,6 +476,12 @@ help:
 	@echo "... benchmarks/ring_buffer_latency.o"
 	@echo "... benchmarks/ring_buffer_latency.i"
 	@echo "... benchmarks/ring_buffer_latency.s"
+	@echo "... src/logger.o"
+	@echo "... src/logger.i"
+	@echo "... src/logger.s"
+	@echo "... tests/logger_test.o"
+	@echo "... tests/logger_test.i"
+	@echo "... tests/logger_test.s"
 	@echo "... tests/ring_buffer_mt_test.o"
 	@echo "... tests/ring_buffer_mt_test.i"
 	@echo "... tests/ring_buffer_mt_test.s"

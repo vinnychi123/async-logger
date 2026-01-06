@@ -1,5 +1,7 @@
+/Users/vincentchi/async-logger/build/CMakeFiles/logger.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_test.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_mt_test.dir
+/Users/vincentchi/async-logger/build/CMakeFiles/logger_test.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_benchmark.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_benchmark_realistic.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_latency.dir

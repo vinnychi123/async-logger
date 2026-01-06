@@ -76,8 +76,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/logger.dir/DependInfo.cmake"
   "CMakeFiles/ring_buffer_test.dir/DependInfo.cmake"
   "CMakeFiles/ring_buffer_mt_test.dir/DependInfo.cmake"
+  "CMakeFiles/logger_test.dir/DependInfo.cmake"
   "CMakeFiles/ring_buffer_benchmark.dir/DependInfo.cmake"
   "CMakeFiles/ring_buffer_benchmark_realistic.dir/DependInfo.cmake"
   "CMakeFiles/ring_buffer_latency.dir/DependInfo.cmake"
