@@ -253,6 +253,45 @@ ring_buffer_latency/fast:
 .PHONY : ring_buffer_latency/fast
 
 #=============================================================================
+# Target rules for targets named memory_ordering_comparison
+
+# Build rule for target.
+memory_ordering_comparison: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memory_ordering_comparison
+.PHONY : memory_ordering_comparison
+
+# fast build rule for target.
+memory_ordering_comparison/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_ordering_comparison.dir/build.make CMakeFiles/memory_ordering_comparison.dir/build
+.PHONY : memory_ordering_comparison/fast
+
+#=============================================================================
+# Target rules for targets named compare_memory_ordering
+
+# Build rule for target.
+compare_memory_ordering: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compare_memory_ordering
+.PHONY : compare_memory_ordering
+
+# fast build rule for target.
+compare_memory_ordering/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compare_memory_ordering.dir/build.make CMakeFiles/compare_memory_ordering.dir/build
+.PHONY : compare_memory_ordering/fast
+
+#=============================================================================
+# Target rules for targets named logger_benchmark
+
+# Build rule for target.
+logger_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger_benchmark
+.PHONY : logger_benchmark
+
+# fast build rule for target.
+logger_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_benchmark.dir/build.make CMakeFiles/logger_benchmark.dir/build
+.PHONY : logger_benchmark/fast
+
+#=============================================================================
 # Target rules for targets named benchmark
 
 # Build rule for target.
@@ -277,6 +316,78 @@ benchmark_main: cmake_check_build_system
 benchmark_main/fast:
 	$(MAKE) $(MAKESILENT) -f external/benchmark/src/CMakeFiles/benchmark_main.dir/build.make external/benchmark/src/CMakeFiles/benchmark_main.dir/build
 .PHONY : benchmark_main/fast
+
+benchmarks/compare_memory_ordering.o: benchmarks/compare_memory_ordering.cpp.o
+.PHONY : benchmarks/compare_memory_ordering.o
+
+# target to build an object file
+benchmarks/compare_memory_ordering.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compare_memory_ordering.dir/build.make CMakeFiles/compare_memory_ordering.dir/benchmarks/compare_memory_ordering.cpp.o
+.PHONY : benchmarks/compare_memory_ordering.cpp.o
+
+benchmarks/compare_memory_ordering.i: benchmarks/compare_memory_ordering.cpp.i
+.PHONY : benchmarks/compare_memory_ordering.i
+
+# target to preprocess a source file
+benchmarks/compare_memory_ordering.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compare_memory_ordering.dir/build.make CMakeFiles/compare_memory_ordering.dir/benchmarks/compare_memory_ordering.cpp.i
+.PHONY : benchmarks/compare_memory_ordering.cpp.i
+
+benchmarks/compare_memory_ordering.s: benchmarks/compare_memory_ordering.cpp.s
+.PHONY : benchmarks/compare_memory_ordering.s
+
+# target to generate assembly for a file
+benchmarks/compare_memory_ordering.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compare_memory_ordering.dir/build.make CMakeFiles/compare_memory_ordering.dir/benchmarks/compare_memory_ordering.cpp.s
+.PHONY : benchmarks/compare_memory_ordering.cpp.s
+
+benchmarks/logger_benchmark.o: benchmarks/logger_benchmark.cpp.o
+.PHONY : benchmarks/logger_benchmark.o
+
+# target to build an object file
+benchmarks/logger_benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_benchmark.dir/build.make CMakeFiles/logger_benchmark.dir/benchmarks/logger_benchmark.cpp.o
+.PHONY : benchmarks/logger_benchmark.cpp.o
+
+benchmarks/logger_benchmark.i: benchmarks/logger_benchmark.cpp.i
+.PHONY : benchmarks/logger_benchmark.i
+
+# target to preprocess a source file
+benchmarks/logger_benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_benchmark.dir/build.make CMakeFiles/logger_benchmark.dir/benchmarks/logger_benchmark.cpp.i
+.PHONY : benchmarks/logger_benchmark.cpp.i
+
+benchmarks/logger_benchmark.s: benchmarks/logger_benchmark.cpp.s
+.PHONY : benchmarks/logger_benchmark.s
+
+# target to generate assembly for a file
+benchmarks/logger_benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_benchmark.dir/build.make CMakeFiles/logger_benchmark.dir/benchmarks/logger_benchmark.cpp.s
+.PHONY : benchmarks/logger_benchmark.cpp.s
+
+benchmarks/memory_ordering_comparison.o: benchmarks/memory_ordering_comparison.cpp.o
+.PHONY : benchmarks/memory_ordering_comparison.o
+
+# target to build an object file
+benchmarks/memory_ordering_comparison.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_ordering_comparison.dir/build.make CMakeFiles/memory_ordering_comparison.dir/benchmarks/memory_ordering_comparison.cpp.o
+.PHONY : benchmarks/memory_ordering_comparison.cpp.o
+
+benchmarks/memory_ordering_comparison.i: benchmarks/memory_ordering_comparison.cpp.i
+.PHONY : benchmarks/memory_ordering_comparison.i
+
+# target to preprocess a source file
+benchmarks/memory_ordering_comparison.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_ordering_comparison.dir/build.make CMakeFiles/memory_ordering_comparison.dir/benchmarks/memory_ordering_comparison.cpp.i
+.PHONY : benchmarks/memory_ordering_comparison.cpp.i
+
+benchmarks/memory_ordering_comparison.s: benchmarks/memory_ordering_comparison.cpp.s
+.PHONY : benchmarks/memory_ordering_comparison.s
+
+# target to generate assembly for a file
+benchmarks/memory_ordering_comparison.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_ordering_comparison.dir/build.make CMakeFiles/memory_ordering_comparison.dir/benchmarks/memory_ordering_comparison.cpp.s
+.PHONY : benchmarks/memory_ordering_comparison.cpp.s
 
 benchmarks/ring_buffer_benchmark.o: benchmarks/ring_buffer_benchmark.cpp.o
 .PHONY : benchmarks/ring_buffer_benchmark.o
@@ -460,13 +571,25 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... benchmark"
 	@echo "... benchmark_main"
+	@echo "... compare_memory_ordering"
 	@echo "... logger"
+	@echo "... logger_benchmark"
 	@echo "... logger_test"
+	@echo "... memory_ordering_comparison"
 	@echo "... ring_buffer_benchmark"
 	@echo "... ring_buffer_benchmark_realistic"
 	@echo "... ring_buffer_latency"
 	@echo "... ring_buffer_mt_test"
 	@echo "... ring_buffer_test"
+	@echo "... benchmarks/compare_memory_ordering.o"
+	@echo "... benchmarks/compare_memory_ordering.i"
+	@echo "... benchmarks/compare_memory_ordering.s"
+	@echo "... benchmarks/logger_benchmark.o"
+	@echo "... benchmarks/logger_benchmark.i"
+	@echo "... benchmarks/logger_benchmark.s"
+	@echo "... benchmarks/memory_ordering_comparison.o"
+	@echo "... benchmarks/memory_ordering_comparison.i"
+	@echo "... benchmarks/memory_ordering_comparison.s"
 	@echo "... benchmarks/ring_buffer_benchmark.o"
 	@echo "... benchmarks/ring_buffer_benchmark.i"
 	@echo "... benchmarks/ring_buffer_benchmark.s"

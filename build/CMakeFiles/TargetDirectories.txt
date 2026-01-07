@@ -5,6 +5,9 @@
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_benchmark.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_benchmark_realistic.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/ring_buffer_latency.dir
+/Users/vincentchi/async-logger/build/CMakeFiles/memory_ordering_comparison.dir
+/Users/vincentchi/async-logger/build/CMakeFiles/compare_memory_ordering.dir
+/Users/vincentchi/async-logger/build/CMakeFiles/logger_benchmark.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/edit_cache.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/rebuild_cache.dir
 /Users/vincentchi/async-logger/build/CMakeFiles/list_install_components.dir

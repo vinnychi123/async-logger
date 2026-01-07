@@ -11,38 +11,38 @@ class RingBuffer{
         RingBuffer(): head_(0), tail_(0) {}
         
         bool try_push(const T& item) {
-            size_t cur_head = head_.load(std::memory_order_seq_cst);
-            size_t cur_tail = tail_.load(std::memory_order_seq_cst);
+            size_t cur_head = head_.load(std::memory_order_relaxed);
+            size_t cur_tail = tail_.load(std::memory_order_acquire);
 
             if (((cur_head - cur_tail) & mask) == mask) {
                 return false; 
             }
 
             buffer_[cur_head & mask] = item;
-            head_.store(cur_head + 1, std::memory_order_seq_cst);
+            head_.store(cur_head + 1, std::memory_order_release);
 
             return true;
 
         }
         bool try_pop(T& item){
-            size_t cur_tail = tail_.load(std::memory_order_seq_cst);
-            size_t cur_head = head_.load(std::memory_order_seq_cst);
+            size_t cur_tail = tail_.load(std::memory_order_relaxed);
+            size_t cur_head = head_.load(std::memory_order_acquire);
 
             if (cur_tail == cur_head) {
                 return false; // Buffer is empty
             }
 
             item = buffer_[cur_tail & mask];
-            tail_.store(cur_tail + 1, std::memory_order_seq_cst);
+            tail_.store(cur_tail + 1, std::memory_order_release);
 
             return true;
            
         }
         bool is_empty() const {
-            return head_.load(std::memory_order_seq_cst) == tail_.load(std::memory_order_seq_cst);
+            return head_.load(std::memory_order_relaxed) == tail_.load(std::memory_order_relaxed);
         }
         bool is_full() const {
-            return ((head_.load(std::memory_order_seq_cst) - tail_.load(std::memory_order_seq_cst)) & mask) == mask;
+            return ((head_.load(std::memory_order_relaxed) - tail_.load(std::memory_order_relaxed)) & mask) == mask;
         }
     
     private:

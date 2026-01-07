@@ -83,6 +83,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ring_buffer_benchmark.dir/DependInfo.cmake"
   "CMakeFiles/ring_buffer_benchmark_realistic.dir/DependInfo.cmake"
   "CMakeFiles/ring_buffer_latency.dir/DependInfo.cmake"
+  "CMakeFiles/memory_ordering_comparison.dir/DependInfo.cmake"
+  "CMakeFiles/compare_memory_ordering.dir/DependInfo.cmake"
+  "CMakeFiles/logger_benchmark.dir/DependInfo.cmake"
   "external/benchmark/src/CMakeFiles/benchmark.dir/DependInfo.cmake"
   "external/benchmark/src/CMakeFiles/benchmark_main.dir/DependInfo.cmake"
   )

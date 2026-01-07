@@ -37,3 +37,11 @@ target_link_libraries(ring_buffer_benchmark_realistic benchmark::benchmark pthre
 add_executable(ring_buffer_latency benchmarks/ring_buffer_latency.cpp)
 target_link_libraries(ring_buffer_latency pthread)
 
+add_executable(memory_ordering_comparison benchmarks/memory_ordering_comparison.cpp)
+target_link_libraries(memory_ordering_comparison benchmark::benchmark pthread)
+
+add_executable(compare_memory_ordering benchmarks/compare_memory_ordering.cpp)
+target_link_libraries(compare_memory_ordering benchmark::benchmark pthread)
+
+add_executable(logger_benchmark benchmarks/logger_benchmark.cpp)
+target_link_libraries(logger_benchmark logger benchmark::benchmark pthread)
