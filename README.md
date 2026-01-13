@@ -288,17 +288,6 @@ index = (index + 1) % Capacity;  // Slow division
 
 MIT License - see LICENSE file for details
 
-## Author
-
-[Your Name]
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Built as part of learning HFT systems programming
-
-## Acknowledgments
-
-- Inspired by production HFT logging systems
-- Memory ordering concepts from [Jeff Preshing's blog](https://preshing.com/)
-- Lock-free queue design patterns from [1024cores](http://www.1024cores.net/home/lock-free-algorithms)
 
 ---
 
